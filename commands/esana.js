@@ -18,7 +18,7 @@ cmd({
             const ress = await api.news(nn);
             const res = ress.results;
 
-            const txt2 = await Void.sendMessage(citel.chat, {image: {url: res.COVER}, caption: `\n*┠─❲ 💠 ʀᴏᴡᴅʏ-ʙᴀʙʏ-ᴍᴅ 💠❳* \n\n*┃◉* *⇨ TITLE :* ${res.TITLE}\n\n*┃◉* *⇨ DATE :* ${res.PUBLISHED}\n\n*┃◉* *⇨ URL :* ${res.URL}\n\n*┃◉* *⇨ DESCRIPTION :* ${res.DESCRIPTION}\n\n*🍀 ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ-ᴋᴀʟɪɴᴅᴜ 🍀®*\n\n`}, { quoted: citel });
+            const txt2 = await Void.sendMessage(citel.chat, {image: {url: res.COVER}, caption: `\n*┠─❲ 💠 ʀᴏᴡᴅʏ-ʙᴀʙʏ-ɴᴇᴡꜱ 💠❳* \n\n*┃◉* *⇨ ᴛɪᴛʟᴇ :* ${res.TITLE}\n\n*┃◉* *⇨ ᴅᴀᴛᴇ :* ${res.PUBLISHED}\n\n*┃◉* *⇨ ᴜʀʟ :* ${res.URL}\n\n*┃◉* *⇨ ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ :* ${res.DESCRIPTION}\n\n*🇱🇰 ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ-ᴋᴀʟɪɴᴅᴜ 🇱🇰®*\n\n`}, { quoted: citel });
 
                 await Void.sendMessage(citel.chat, { react: {
         text: "📰",
