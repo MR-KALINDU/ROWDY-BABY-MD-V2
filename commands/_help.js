@@ -24,7 +24,7 @@ Secktor.cmd({
             alias: ["menu"],
             desc: "Help list",
             category: "general",
-            react: "✨",
+            react: "🧾",
             filename: __filename
         },
         async(Void, citel, text) => {
@@ -56,23 +56,21 @@ Secktor.cmd({
                 let str = `╭────《 ` + fancytext(Config.ownername.split(' ')[0], 58) + ` 》─────⊷\n`
                 str +=
                     '```' + `│ ╭──────────────◆
-│ │ User:- ${citel.pushName}
-│ │ Theme:- ${tlang().title}
-│ │ Prefix:- [ ${prefix} ]
-│ │ Owner:- ${Config.ownername}
-│ │ Plugins:- ${commands.length}
-│ │ Users:- ${total}
-│ │ Uptime:- ${runtime(process.uptime())}
-│ │ Mem:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
-│ │ Time:- ${time}
-│ │ Date:- ${date}
+│ │ 〽️ ᴜꜱᴇʀ:- ${citel.pushName}
+│ │ 〽️ ʙᴏᴛ ɴᴀᴍᴇ:- ʀᴏᴡᴅʏ-ʙᴀʙʏ-ᴍᴅ
+│ │ 〽️ ᴍʏ ᴘʀᴇꜰɪx:- [ ${prefix} ]
+│ │ 〽️ ᴄʀᴇᴀᴛᴇʀ:- ᴍʀ-ᴋᴀʟɪɴᴅᴜ 
+│ │ 〽️ ᴍʏ ᴜᴘᴛɪᴍᴇ:- ${runtime(process.uptime())}
+│ │ 〽️ ᴍᴇᴍᴏʀʏ:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
+│ │ 〽️ ɴᴏᴡ ᴛɪᴍᴇ:- ${time}
+│ │ 〽️ ᴅᴀᴛᴇ:- ${date}
 │ ╰──────────────◆
 ╰───────────────⊷\n
 ` + '```'
                 for (const category in cmds) 
                 {
-                   str += `╭────❏ *${tiny(category)}* ❏\n` ;
-                   if(text.toLowerCase() == category.toLowerCase()){ str = `╭─────❏ *${tiny(category)}* ❏\n` ;      
+                   str += `╭────🌿 *${tiny(category)}* 🌿\n` ;
+                   if(text.toLowerCase() == category.toLowerCase()){ str = `╭─────🍂 *${tiny(category)}* 🍂\n` ;      
                         for (const plugins of cmds[category]) { str += `│ ${fancytext(plugins,1)}\n` ; }
                         str += `╰━━━━━━━━━━━━━──⊷\n`  ;
                         break ;
@@ -82,7 +80,7 @@ Secktor.cmd({
                    }
   
                 }
-                str+= `*💠 ʀᴏᴡᴅʏ-ʙᴀʙʏ-ᴍᴅ 💠*`
+                str+= `*💠 ʀᴏᴡᴅʏ-ʙᴀʙʏ-ᴍᴅ 💠\n🍀 ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ-ᴋᴀʟɪɴᴅᴜ 🍀*`
                 let buttonMessaged = {
                     image: { url: await botpic() },
                     caption: str
