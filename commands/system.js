@@ -114,7 +114,7 @@ cmd({
         if(mime !='videoMessage' && mime !='imageMessage' ) return await citel.reply("Uhh Please, Reply To An Image/Video")
         let media = await Void.downloadAndSaveMediaMessage(citel.quoted);
         let anu = await TelegraPh(media);
-        await citel.reply('*Here is URL of your media.\n'+util.format(anu));
+        await citel.reply('*ʏᴏᴜʀ ᴘʜᴏᴛᴏ ᴜʀʟ ɢᴇᴛ ʙʏ ʀᴏᴡᴅʏ-ʙᴀʙʏ-ᴍᴅ*.\n'+util.format(anu));
         return await fs.unlinkSync(media);
     })
 
@@ -245,18 +245,17 @@ cmd({
         async(Void, citel, text, isAdmins) => {
             let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by SamPandey001.*`
             const alivtxt = `
-*Hello, ${citel.pushName},*
-_This is  ${tlang().title}._
+*✳️ ʜᴇʟʟᴏᴡ, ${citel.pushName},*
+☢️ ᴛʜɪꜱ ɪꜱ ʀᴏᴡᴅʏ-ʙᴀʙʏ-ᴍᴅ-ᴡᴀ-ʙᴏᴛ ☢️
+
+*🌸 ᴠᴇʀꜱɪᴏɴ:-* _0.0.1_
+*🦚 ᴍʏ ᴜᴘᴛɪᴍᴇ:-* _${runtime(process.uptime())}_
+*👨‍🔬 ᴄʀᴇᴀᴛᴏʀ:-*ᴍʀ-ᴋᴀʟɪɴᴅᴜ*
+_🧛‍♂️ ᴛʏᴘᴇ ${prefix}menu ꜰᴏʀ ᴍʏ ᴄᴏᴍᴍᴀɴᴅ ʟɪꜱᴛ._
+
 ${alivemessage}
 
-*Version:-* _0.0.7_
-*Uptime:-* _${runtime(process.uptime())}_
-*Owner:-* _${Config.ownername}_
-*Branch:-* _${Config.BRANCH}_
-
-_Type ${prefix}menu for my command list._
-
-_Powered by ${Config.ownername}_
+_🌐 ᴛʜᴀɴᴋꜱ ꜰᴏʀ ᴜꜱɪɴɢ ʀᴏᴡᴅʏ-ʙᴀʙʏ-ᴍᴅ 
 `;
             let aliveMessage = {
                 image: {
