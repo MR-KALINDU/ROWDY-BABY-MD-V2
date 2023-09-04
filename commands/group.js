@@ -84,7 +84,7 @@ cmd({
         citel.reply(`*Check your Pm ${tlang().greet}*`);
         await Void.sendMessage(`${citel.sender}`, {
             image: log0,
-            caption: `*ɢʀᴏᴜᴘ ɴᴀᴍᴇ: ʙᴜᴛᴛᴇʀ-Qᴜᴇᴇɴ-ꜱᴜᴘᴘᴏʀᴛ*\n*ɢʀᴏᴜᴘ ʟɪɴᴋ:* https://chat.whatsapp.com/LkP8QZqdhXUKxmc0hUPip5`,
+            caption: `*ɢʀᴏᴜᴘ ɴᴀᴍᴇ: ʀᴏᴡᴅʏ-ʙᴀʙʏ-ꜱᴜᴘᴘᴏʀᴛ*\n*ɢʀᴏᴜᴘ ʟɪɴᴋ:* https://chat.whatsapp.com/LkP8QZqdhXUKxmc0hUPip5`,
         });
 
     }
@@ -288,7 +288,7 @@ if (!isBotAdmins) return citel.reply("*_I'm Not Admin, So I can't Send Invite Li
 var str1 = await Void.groupInviteCode(citel.chat)
 var str2 ="https://chat.whatsapp.com/"
 var mergedString = `${str2}${str1}`;
-return citel.reply("*ɢʀᴏᴜᴘ ɪɴᴠɪᴛᴇ ʟɪɴᴋ ɢᴇᴛ ʙʏ ʙᴜᴛᴛᴇʀ-Qᴜᴇᴇɴ-ᴍᴅ* \n*"+mergedString+"*");
+return citel.reply("*ɢʀᴏᴜᴘ ɪɴᴠɪᴛᴇ ʟɪɴᴋ ɢᴇᴛ ʙʏ ʀᴏᴡᴅʏ-ʙᴀʙʏ-ᴍᴅ* \n*"+mergedString+"*");
 	
     }
 	)
@@ -355,7 +355,7 @@ cmd({
         if (!isAdmins && !isCreator) return citel.reply(tlang().admin);
 
         let textt = `
-══✪〘   *ʙᴜᴛᴛᴇʀ-Qᴜᴇᴇɴ-ᴍᴅ*   〙✪══
+══✪〘   *ʀᴏᴡᴅʏ-ʙᴀʙʏ-ᴍᴅ*   〙✪══
 ══✪〘   *ᴛᴀɢ ᴀʟʟ ꜱʏꜱᴛᴇᴍ*   〙✪══
 🍁 *ᴍᴇꜱꜱᴀɢᴇ :* ${text ? text : "blank Message"} \n 
 🍃 *ᴀᴜᴛʜᴏʀ:* ${citel.pushName} 🔖
@@ -764,7 +764,7 @@ cmd({
             desc: "Provides admin role to replied/quoted user",
             category: "group",
             filename: __filename,
-	    react: '🔝',
+	    react: '⏫',
             use: '<quote|reply|number>',
         },
         async(Void, citel, text ,{ isCreator }) => {	
@@ -795,7 +795,7 @@ cmd({
     desc: "Demotes replied/quoted user from group",
     category: "group",
     filename: __filename,
-    react: '⬇️',
+    react: '⏬',
     use: '<quote|reply|number>',
 },
 async(Void, citel, text,{ isCreator }) => {
