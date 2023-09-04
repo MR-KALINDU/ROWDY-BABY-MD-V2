@@ -3,7 +3,7 @@
   
 <p align="center">  
   <a href="https://chat.whatsapp.com/LkP8QZqdhXUKxmc0hUPip5">
-    <img alt=Support height="300" src="https://i.ibb.co/ccb1QTf/Ephoto360-com-164d4f4eb43109.jpg">
+    <img alt=Support height="300" src="https://telegra.ph/file/bb427a8083dbac0b5138c.jpg">
 
 ●. ***Get a Mongodb uri from [Clever-Cloud](https://api.clever-cloud.com/v2/session/login).***
 
