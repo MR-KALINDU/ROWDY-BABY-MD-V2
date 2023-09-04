@@ -1,13 +1,13 @@
 {
-               "name": "secktor-md",
+               "name": "rowdy-baby-md",
                "version": "0.0.7",
-               "description": "Multi device whatsapp bot by SamPandey001.",
+               "description": "Multi device whatsapp bot by kalindu.",
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "GPL-3.0",
    "scripts": {
-                "start": "pm2 start lib/client.js --deep-monitoring --attach --name secktor",
-                "stop": "pm2 stop secktor"
+                "start": "pm2 start lib/client.js --deep-monitoring --attach --name rowdy-md",
+                "stop": "pm2 stop rowdy-md"
                 },
                "author": "SamPandey001",
               "dependencies": {
@@ -68,10 +68,10 @@
                     },
                  "repository": {
                  "type": "git",
-                 "url": "git+https://github.com/SamPandey001/Secktor-Md.git"
+                 "url": "git+https://github.com/MR-KALINDU/ROWDY-BABY-MD.git"
                   },
                  "bugs": {
-                 "url": "https://github.com/SamPandey001/Secktor-Md/issues"
+                 "url": "https://github.com/MR-KALINDU/ROWDY-BABY-MD/issues"
                   },
-                 "homepage": "https://github.com/SamPandey001/Secktor-Md#readme"
+                 "homepage": "https://github.com/MR-KALINDU/ROWDY-BABY-MD#readme"
                   }
