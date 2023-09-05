@@ -69,14 +69,24 @@ cmd({
             use: '<text>',
             filename: __filename,
         },
-        async(Void, citel, text) => {
+ async(Void, citel, text) => {
 let limit = 5;
  try {
     if (!text) return citel.reply("```Uhh Please, Give me Url!```");
     var url = text;
-    let urll = `https://s.vercel.app/api?url=${url.match(/\bhttps?:\/\/\S+/gi)[0]}&width=1280&height=720`
-    let media  = await getBuffer(urll)
-    return await Void.sendMessage(citel.chat ,{image : media } , {quoted:citel} )
+const {
+sswebA
+} = require('getscreenshot.js');
+
+const getRandom = (ext) => {
+	return `${Math.floor(Math.random() * 10000)}${ext}`
+}
+
+//await sswebA('websiteurl', fullss(true/false), 'desktop/tablet/phone')
+const res = await sswebA('https://github.com/vihangayt0',false,'desktop');
+let namefile = getRandom('') + '.jpg'
+fs.writeFileSync(namefile, res);
+await conn.sendMessage(from, { image: fs.readFileSync(namefile), caption: 'rowdy baby' }, { quoted: mek })
  }
 catch (err) { return citel.reply("```Error While Fetching Snapshot```")}
         }
