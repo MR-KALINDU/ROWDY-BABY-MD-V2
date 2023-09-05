@@ -18,7 +18,7 @@ cmd({
             const ress = await api.news(nn);
             const res = ress.results;
 
-            const txt2 = await Void.sendMessage(citel.chat, {image: {url: res.COVER}, caption: `\n*┏━[ _💠 ʀᴏᴡᴅʏ-ʙᴀʙʏ-ᴍᴅ 💠_ ]─*\n\n*┣━( _🧾 ᴇꜱᴀɴᴀ ɴᴇᴡꜱ 🧾_ )* \n\n*┃⿻* *🥏 ᴛɪᴛʟᴇ :* ${res.TITLE}\n\n*┃⿻* *📅 ᴅᴀᴛᴇ :* ${res.PUBLISHED}\n\n*┃⿻* *🔗 ᴜʀʟ :* ${res.URL}\n\n*┃⿻* *🗞️ ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ :* ${res.DESCRIPTION}\n\n*┗━━━━━━━━━━━━━━◆*\n\n🍀 ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ-ᴋᴀʟɪɴᴅᴜ 🍀\n`}, { quoted: citel });
+            const txt2 = await Void.sendMessage(citel.chat, {image: {url: res.COVER}, caption: `\n*┏━[ _💠 ʀᴏᴡᴅʏ-ʙᴀʙʏ-ᴍᴅ 💠_ ]─*\n\n*┣━( _🧾 ꜱɪʀᴀꜱᴀ ɴᴇᴡꜱ 🧾_ )* \n\n*┃⿻* *🥏 ᴛɪᴛʟᴇ :* ${res.TITLE}\n\n*┃⿻* *📅 ᴅᴀᴛᴇ :* ${res.PUBLISHED}\n\n*┃⿻* *🔗 ᴜʀʟ :* ${res.URL}\n\n*┃⿻* *🗞️ ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ :* ${res.DESCRIPTION}\n\n*┗━━━━━━━━━━━━━━◆*\n\n🍀 ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ-ᴋᴀʟɪɴᴅᴜ 🍀\n`}, { quoted: citel });
 
                 await Void.sendMessage(citel.chat, { react: {
         text: "📰",
