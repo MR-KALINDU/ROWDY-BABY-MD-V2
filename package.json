@@ -1,6 +1,6 @@
 {
-               "name": "rowdy-baby-md",
-               "version": "0.0.7",
+               "name": "rowdy-baby-Md",
+               "version": "4.0",
                "description": "Multi device whatsapp bot by kalindu.",
                "main": "lib/client.js",
                "type": "commonjs",
@@ -9,7 +9,7 @@
                 "start": "pm2 start lib/client.js --deep-monitoring --attach --name rowdy-md",
                 "stop": "pm2 stop rowdy-md"
                 },
-               "author": "SamPandey001",
+               "author": "kalindu",
               "dependencies": {
                        "@sampandey001/baileys": "latest", 
                        "@adiwajshing/keyed-db": "^0.2.4",
@@ -30,6 +30,7 @@
                        "mongoose": "^6.2.1",
                        "mumaker": "^1.0.0",
                        "google-it": "^1.6.2",
+                       "google-image-sr": "^1.0.0",
                        "file-type": "^16.5.3",
                        "form-data": "^4.0.0",
                        "ffmpeg": "^0.0.4",
@@ -55,9 +56,34 @@
                        "util": "^0.12.4",           
                        "secktor-pack": "latest",
                        "ytdl-secktor": "latest",
+                       "@blackamda/song_video_dl": "latest",
                        "pastebin-js": "latest",
-                       "fb-info-video":"^1.0.2",
-                       "wa-sticker-formatter": "^4.3.2"
+                       "aptoide-scraper": "latest",
+                       "getscreenshot.js": "latest",
+                       "vihangayt-fbdl": "latest",
+                       "mfiredlcore-vihangayt": "latest",
+                       "chatgpt-scraper": "latest",
+                       "@sl-code-lords/openai-chatgpt": "latest",
+                       "@sl-code-lords/text-pro-me": "latest",
+                       "@sl-code-lords/image-library": "^1.0.0",
+                       "@sl-code-lords/esana-news": "latest",
+                       "@sl-code-lords/wabetainfo": "latest",
+                       "@sl-code-lords/si-subdl": "latest",
+                       "@sl-code-lords/openai-chatgpt": "latest",
+                       "hirunews-scraper": "latest",
+                       "sirasa-news": "latest",
+                       "tech-news-scraper": "latest",
+                       "ios-news": "latest",
+                       "nima-threads-dl-api": "latest",
+                       "@bochilteam/scraper-downloader": "latest",
+                       "@saipulanuar/tiktok-scraper-ts": "latest",
+                       "@xaviabot/fb-downloader": "latest",
+                       "api-dylux": "latest",
+                       "@xct007/frieren-scraper": "latest",
+                       "fouadwa-scraper": "latest",
+                       "fb-info-video": "latest",
+                       "wa-sticker-formatter": "^4.3.2",
+                       "wa_set_pkg":"1.0.1"
                       },
                   "directories": {
                        "lib": "lib",
@@ -73,5 +99,5 @@
                  "bugs": {
                  "url": "https://github.com/MR-KALINDU/ROWDY-BABY-MD/issues"
                   },
-                 "homepage": "https://github.com/MR-KALINDU/ROWDY-BABY-MD#readme"
+                 "homepage": "https://github.com/MR-KALINDU/ROWDY-BABY-MD/#readme"
                   }
