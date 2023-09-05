@@ -374,8 +374,31 @@ cmd({
             let infoYt = await ytdl.getInfo(anu.url);
             if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`❌ Video file too big!`);
             let titleYt = infoYt.videoDetails.title;
-            let randomName = getRandom(".mp3");
-            citel.reply('╭───────────────◆\n│🎗️\n│🎗️ *💃 ROWDY-BABY-MD 💃* 🦚\n│🎗️ \n│🎗️ *SONG DOWNLOAD*\n│🎗️\n│🎗️ *PLEASE WAIT UPLOADING YOUR SONG*\n│🎗️ \n╰────────────────◆\n\n  ⦿ *CREATED BY KALINDU* 🧚‍♂️')
+                        let buttonMessage = {
+                image: {
+                    url: anu.thumbnail,
+                },
+                caption: `
+╭───────────────◆
+│⿻ ${tlang().title} 
+│  *Rowdy-Baby-Youtube Player* ✨
+│⿻ *Title:* ${anu.title}
+│⿻ *Duration:* ${anu.timestamp}
+│⿻ *Viewers:* ${anu.views}
+│⿻ *Uploaded:* ${anu.ago}
+│⿻ *Author:* ${anu.author.name}
+╰────────────────◆
+⦿ *Url* : ${anu.url}
+`,
+                footer: tlang().footer,
+                headerType: 4,
+            };
+            return Void.sendMessage(citel.chat, buttonMessage, {
+                quoted: citel,
+            });
+
+        }
+    )
             const stream = ytdl(anu.url, {
                     filter: (info) => info.audioBitrate == 160 || info.audioBitrate == 128,
                 })
@@ -414,10 +437,8 @@ cmd({
             }
             fs.unlinkSync(`./${randomName}`);
             
-
-
-        }
-    )
+     
+    
     
 
     //---------------------------------------------------------------------------
