@@ -363,8 +363,8 @@ cmd({
             filename: __filename,
 	    react: "🎶",
             use: '<text>',
- },
-      async(Void, citel, text) => {
+        },
+        async(Void, citel, text) => {
             let yts = require("secktor-pack");
             let search = await yts(text);
             let anu = search.videos[0];
@@ -375,8 +375,7 @@ cmd({
             if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`❌ Video file too big!`);
             let titleYt = infoYt.videoDetails.title;
             let randomName = getRandom(".mp3");
-            let cap = "\t *---Yt Song Searched Data---*   \n\nTitle : " + i.title + "\nUrl : " + i.url +"\nDescription : " + i.timestamp +"\nViews : "+i.views +"\nUploaded : " +i.ago +"\nAuthor : "+i.author.name+"\n\n\nReply 1 To Video \nReply 2 To Audio" ;
-                Suhail.bot.sendMessage(citel.chat,{image :{url : i.thumbnail}, caption :  cap });
+            citel.reply('╭───────────────◆\n│🎗️\n│🎗️ *💃 ROWDY-BABY-MD 💃* 🦚\n│🎗️ \n│🎗️ *SONG DOWNLOAD*\n│🎗️\n│🎗️ *PLEASE WAIT UPLOADING YOUR SONG*\n│🎗️ \n╰────────────────◆\n\n  ⦿ *CREATED BY KALINDU* 🧚‍♂️')
             const stream = ytdl(anu.url, {
                     filter: (info) => info.audioBitrate == 160 || info.audioBitrate == 128,
                 })
