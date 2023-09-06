@@ -90,7 +90,7 @@ citel.reply("``` SUCCESSFULLY SENT DATA AND Connection disconnected```")
 
 await sleep(1000)
 
-            return citel.reply('*🍁...THIS PRANK CREATED BY KALINDU FOR BUTTER-QUEEN-MD-BOT...🍁*');
+            return citel.reply('*🍁...THIS PRANK CREATED BY KALINDU FOR ROWDY-BABY-MD-BOT...🍁*');
 
         }
 
