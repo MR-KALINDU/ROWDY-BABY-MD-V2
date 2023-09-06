@@ -1,21 +1,4 @@
-/**
- Copyright (C) 2022.
- Licensed under the  GPL-3.0 License;
- You may not use this file except in compliance with the License.
- It is supplied in the hope that it may be useful.
- * @project_name : Secktor-Md
- * @author : SamPandey001 <https://github.com/SamPandey001>
- * @description : Secktor,A Multi-functional whatsapp bot.
- * @version 0.0.6
- **/
 
-const axios = require('axios')
-const { sck1, tiny, fancytext,getBuffer, listall,cmd , TelegraPh , Config} = require('../lib/')
-const fs = require('fs-extra');
-const { exec } = require('child_process')
-const { Sticker, createSticker, StickerTypes } = require("wa-sticker-formatter");
-
-    //---------------------------------------------------------------------------
 cmd({
             pattern: "photo",
             desc: "Makes photo of replied sticker.",
@@ -292,7 +275,7 @@ cmd({
 
           let textt = text.split('|')[0] || '' ;
           let isCheck = text.split('|')[1] || 'sticker'; 
-          let tex1 =  textt.split(';')[0] || 'Suhail' ;    
+          let tex1 =  textt.split(';')[0] || 'MR-KALINDU' ;    
           let tex2 =  textt.split(';')[1] || '_' ;
 
             let mee = await Void.downloadAndSaveMediaMessage(citel.quoted)
@@ -321,82 +304,29 @@ cmd({
     )
 
  //---------------------------------------------------------------------------
- //---------------------------------------------------------------------------
-cmd({
-            pattern: "quotely",
-            desc: "Makes Sticker of quoted text.",
-            alias: ["q"],
-            category: "sticker",
-            use: '<reply to any message.>',
-            filename: __filename
-        },
-        async(Void, citel, text) => {
-            if (!citel.quoted) return citel.reply(`Please quote/reply to any message`);
-            let textt = citel.quoted.text;
-            let pfp;
-            try {
-                pfp = await Void.profilePictureUrl(citel.quoted.sender, "image");
-            } catch (e) {
-                pfp = THUMB_IMAGE;
-            }
-            let todlinkf = ["#FFFFFF", "#000000"];
-            let todf = todlinkf[Math.floor(Math.random() * todlinkf.length)];
-            let username = await sck1.findOne({ id: citel.quoted.sender })
-            var tname;
-            if (username.name && username.name !== undefined) {
-                tname = username.name
-            } else {
-                tname = Void.getName(citel.quoted.sender)
-            }
-            let body = {
-                type: "quote",
-                format: "png",
-                backgroundColor: todf,
-                width: 512,
-                height: 512,
-                scale: 3,
-                messages: [{
-                    avatar: true,
-                    from: {
-                        first_name: tname,
-                        language_code: "en",
-                        name: tname,
-                        photo: {
-                            url: pfp,
-                        },
-                    },
-                    text: textt,
-                    replyMessage: {},
-                }, ],
-            };
-            let res = await axios.post("https://bot.lyo.su/quote/generate", body);
-            let img = Buffer.alloc(res.data.result.image.length, res.data.result.image, "base64");
-            return citel.send(img,{packname:Config.packname,author:''},"sticker")
-
-        }
-    )
+ 
     //---------------------------------------------------------------------------
 cmd({
             pattern: "fancy",
             desc: "Makes stylish/fancy given text",
             category: "converter",
-            use: '56 BUTTER-QUEEN',
+            use: '56 ROWDY-BABY',
             react: "✅",
             filename: __filename
         },
         async(Void, citel, text) => {
             if (isNaN(text.split(" ")[0]) || !text) {
                 let text = tiny(
-                    "Fancy text generator\n\n*_______________________________*\n*Example: .fancy 32 BUTTER-QUEEN-MD*\n*_______________________________*\n\n"
+                    "Fancy text generator\n\nExample: .fancy 32 ROWDY-BABY\n\n"
                 );
-                listall("BUTTER-QUEEN").forEach((txt, num) => {
+                listall("ROWDY BABY MD").forEach((txt, num) => {
                     text += `${(num += 1)} ${txt}\n`;
                 });
                 return await citel.reply(text);
             }
 
             let fancytextt = await fancytext(`${text.slice(2)}`, text.split(" ")[0])
-            citel.send(fancytextt)
+            citel.reply(fancytextt)
 
         }
     )
@@ -422,54 +352,31 @@ cmd({
     )
     //---------------------------------------------------------------------------
 cmd({
-        pattern: "toaudio",
-        alias:['mp3','tomp3'],
-        desc: "changes type to audio.",
-        category: "converter",
-        use: '<reply to any Video>',
-        filename: __filename
-    },
-   async(Void, citel, text) => {
-        if (!citel.quoted) return citel.reply(`_Reply to Any Video_`);
-        let mime = citel.quoted.mtype
-if (mime =="audioMessage" || mime =="videoMessage")
-{
-        let media = await Void.downloadAndSaveMediaMessage(citel.quoted);
-         const { toAudio } = require('../lib');
-         let buffer = fs.readFileSync(media);
-        let audio = await toAudio(buffer);
-        Void.sendMessage(citel.chat, { audio: audio, mimetype: 'audio/mpeg' }, { quoted: citel });
-     
- 
- fs.unlink(media, (err) => {
-  if (err) { return console.error('File Not Deleted from From TOAUDIO AT : ' , media,'\n while Error : ' , err);  }
-  else return console.log('File deleted successfully in TOAUDIO MP3 at : ' , media);
-});
-
-}
- else return citel.send ("*Uhh Please, Reply To A video Message*")
-    }
-)
-     //---------------------------------------------------------------------------
-cmd({
-    pattern: "toMp4",
-    alias:['mp4','tovideo','tovid'],
+    pattern: "toaudio",
+    alias:['mp3','tomp3'],
     desc: "changes type to audio.",
     category: "converter",
     use: '<reply to any Video>',
     filename: __filename
 },
 async(Void, citel, text) => {
-    const { webp2mp4File } = require ("../lib")
-    if (!citel.quoted) return citel.send('*Uhh Dear, Reply To Animated Sticker or Gif*')
+    if (!citel.quoted) return citel.reply(`_Reply to Any Video_`);
     let mime = citel.quoted.mtype
-    let mimetype = citel.quoted.mimetype
-    if( mime !="videoMessage" && !/webp/.test(mimetype)) return await citel.send("*Damn... Reply To An Animated Sticker or Gif *")
-    let media = await Void.downloadAndSaveMediaMessage(citel.quoted)
-    try {
-        if (/webp/.test(mimetype)) {  let webpToMp4 = await webp2mp4File(media);  media =  webpToMp4.result; }
-        await Void.sendMessage(citel.chat, { video: { url: media ,}, caption: Config.caption  },)
-        try{ return await fs.unlink(media);}catch(e){ return console.log("Error While Deleting Tomp4 File :  ", e)}
-    }catch(e){ return console.log("*Your Request Not Be Proceed due to Error.*  \n*_Error :_* ", e)}
+if (mime =="audioMessage" || mime =="videoMessage")
+{
+    let media = await Void.downloadAndSaveMediaMessage(citel.quoted);
+     const { toAudio } = require('../lib');
+     let buffer = fs.readFileSync(media);
+    let audio = await toAudio(buffer);
+    Void.sendMessage(citel.chat, { audio: audio, mimetype: 'audio/mpeg' }, { quoted: citel });
+ 
+
+fs.unlink(media, (err) => {
+if (err) { return console.error('File Not Deleted from From TOAUDIO AT : ' , media,'\n while Error : ' , err);  }
+else return console.log('File deleted successfully in TOAUDIO MP3 at : ' , media);
+});
+
+}
+else return citel.reply ("```Uhh Please, Reply To A video Message```")
 }
 )
