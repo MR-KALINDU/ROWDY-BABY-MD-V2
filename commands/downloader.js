@@ -232,7 +232,7 @@ cmd({
                 if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`❌ Video file too big!`);
                 let titleYt = infoYt.videoDetails.title;
                 let randomName = getRandom(".mp4");
-                citel.reply('╭───────────────◆\n│🎗️\n│🎗️ *💃 ROWDY-BABY-MD 💃* 🦚\n│🎗️ \n│🎗️ *VIDEO DOWNLOAD*\n│🎗️\n│🎗️ *PLEASE WAIT UPLOADING YOUR VIDEO*\n│🎗️ \n╰────────────────◆\n\n  ⦿ *CREATED BY KALINDU* 🧚‍♂️')
+                citel.reply('┏━━━━━━━━━━━━━┓\n\n🇱🇰 *ʀᴏᴡᴅʏ ʙᴀʙʏ ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ* 🇱🇰\n\n▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁\n\n✷▎🎋⃟🤹‍♂️ *ᴛɪᴛʟᴇ*: ${anu.title}\n\n✷▎🎋⃟🤹‍♂️ *ᴅᴜʀᴀᴛɪᴏɴ*: ${anu.timestamp}\n\n✷▎🎋⃟🤹‍♂️ *ᴠɪᴇᴡᴇʀꜱ*: ${anu.views}\n\n✷▎🎋⃟🤹‍♂️ *ᴜᴘʟᴏᴀᴅᴇᴅ*: ${anu.ago}\n\n✷▎🎋⃟🤹‍♂️ *ᴀᴜᴛʜᴏʀ*: ${anu.author.name}\n\n✷▎🎋⃟🤹‍♂️ *ᴜʀʟ*: ${anu.url}\n\n┗━━━━━━━━━━━━━┛\n\n*ʏᴏᴜʀ ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴘʟᴇᴀꜱᴇ ᴡᴀɪᴛ*...🔥🔥')
                 const stream = ytdl(urlYt, {
                         filter: (info) => info.itag == 22 || info.itag == 18,
                     })
@@ -250,7 +250,7 @@ cmd({
                         jpegThumbnail: log0,
                         mimetype: 'video/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: `💖 TITLE : ${titleYt}\n\n 💃 FILE SIZE : ${fileSizeInMegabytes} MB\n\n 💛 DOWNLOADED BY ROWDY-BABY-MD\n\n 🧚‍♂️ CREATED BY KALINDU`,
+                        caption: `✷▎🎋⃟🤹‍♂️ *ᴛɪᴛʟᴇ*: ${titleYt}\n\n🇱🇰 *ʀᴏᴡᴅʏ ʙᴀʙʏ ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ* 🇱🇰`,
                         headerType: 4,
                         contextInfo: {
                             externalAdReply: {
