@@ -9,11 +9,11 @@
 
 ●. ***Get a Mongodb uri from [railway.app](https://railway.app).***
 
-●.  ***Click [FORK](https://github.com/KALINDU-LK/ROWDY-BABY-MD/fork)***
+●.  ***Click [FORK](https://github.com/MR-KALINDU/ROWDY-BABY-MD/fork)***
 
 
 ## ```SCAN QR CODE```
-[![SCAN QR](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@kalidugaweshana/BUTTER-QUEEN-MD)
+[![SCAN QR](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@KaliduGaweshana/MR-KALINDU-BOT)
    
 ## ```HEROKU DEPLOYMENT```
 
