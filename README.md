@@ -16,6 +16,6 @@
 
 
 ## ```ROWDY-BABY DEVELOPER```
-<p align = center > <a href="https://github.com/MR-KALINDU/"><img align="center" src="https://github.com/MR-KALINDU.png?size=200" alt="SCAN QR SERVER 1" height="100" width="200" /></a> </p> <br>
+<p align = center > <a href="https://wa.me/+94758179948/"><img align="center" src="https://github.com/MR-KALINDU.png?size=200" alt="SCAN QR SERVER 1" height="100" width="200" /></a> </p> <br>
 
 
