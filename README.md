@@ -1,53 +1,21 @@
-  <div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=F710B1&center=true&width=910&height=100&lines=I'M+ROWDY-BABY-MD ;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+💝KALINDU💝;PUBLIC+RELESED+DATE;2023.07.29;ALL+COMMANDS+ARE+ENCRPTED." alt="Typing SVG" /></a>
-  
-   ## ```●. THIS IS SONIC MD UPDATED VERSION.```
+<p align="center"> 
+  <p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Bungee+Shade&size=25&pause=1000&background=FF000000&width=435&lines=THIS+IS+SONIC+MD+V2+;ROWDY-+BABY-+MD;CREATED+BY+MR-KALINDU ✔️" alt="Typing SVG" /></a>
+</p>
 
-<p align="center">  
-  <a href="https://chat.whatsapp.com/LkP8QZqdhXUKxmc0hUPip5">
-    <img alt=Support height="300" src="https://telegra.ph/file/bb427a8083dbac0b5138c.jpg">
 
-●. ***Get a Mongodb uri from [Clever-Cloud](https://api.clever-cloud.com/v2/session/login).***
-
-●. ***Get a Mongodb uri from [railway.app](https://railway.app).***
-
-●.  ***Click [FORK](https://github.com/MR-KALINDU/ROWDY-BABY-MD/fork)***
-
+## ```FIRST FORK REPO```
+<p align = center > <a href="https://github.com/MR-KALINDU/ROWDY-BABY-MD/fork"><img align="center" src="https://i.ibb.co/x6hfmxC/Ephoto360-com-164f5e3dfbada5.jpg" alt="SCAN QR SERVER 1" height="100" width="200" /></a> </p> <br>
 
 ## ```SCAN QR CODE```
-[![SCAN QR](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@KaliduGaweshana/MR-KALINDU-BOT)
-   
-## ```HEROKU DEPLOYMENT```
+<p align = center > <a href="https://mr-kalindu-5dfce8b97779.herokuapp.com"><img align="center" src="https://i.imgur.com/dzPTA6u.png" alt="SCAN QR SERVER 1" height="112" width="300" /></a> </p> <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MR-KALINDU/ROWDY-BABY-MD)
----------
+## ```DEPLOY TO HEROKU```
+<p align = center > <a href="https://heroku.com/deploy?template=https://github.com/MR-KALINDU/ROWDY-BABY-MD" target="blank"><img align="center" src="https://i.imgur.com/6rs61MY.png" alt="Deploy bot" height="112" width="310" /></a> </p>
 
 
 
-## ```WARNING```
-
-ALL COMMANDS ARE ENCRIPTED. DON'T TRY DECRIPT. BOT BY KALINDU
-
-
- ## ```🐝 ROWDY-BABY OWNER  ```
-
- 
-
-  <div align="center">
-
-  
-
- [![KALINDU GAWESHANA](https://github.com/MR-KALINDU.png?size=200)](https://github.com/MR-KALINDU) 
+## ```ROWDY-BABY DEVELOPER```
+<p align = center > <a href="https://github.com/MR-KALINDU/"><img align="center" src="https://github.com/MR-KALINDU.png?size=200" alt="SCAN QR SERVER 1" height="100" width="200" /></a> </p> <br>
 
 
-
- [KALINDU GAWESHANA](https://github.com/MR-KALINDU) 
-
-  𝗠𝗔𝗜𝗡 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 
-
-  
-
-  </div>
-  
-
-  
