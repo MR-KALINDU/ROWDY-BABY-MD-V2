@@ -8,7 +8,7 @@
 <p align = center > <a href="https://github.com/MR-KALINDU/ROWDY-BABY-MD/fork"><img align="center" src="https://i.ibb.co/x6hfmxC/Ephoto360-com-164f5e3dfbada5.jpg" alt="SCAN QR SERVER 1" height="100" width="200" /></a> </p> <br>
 
 ## ```SCAN QR CODE```
-<p align = center > <a href="https://mr-kalindu-5dfce8b97779.herokuapp.com"><img align="center" src="https://i.imgur.com/dzPTA6u.png" alt="SCAN QR SERVER 1" height="112" width="300" /></a> </p> <br>
+<p align = center > <a href="[https://mr-kalindu-5dfce8b97779.herokuapp.com](https://rowdy-baby-qr-94d785f490a0.herokuapp.com/)"><img align="center" src="https://i.imgur.com/dzPTA6u.png" alt="SCAN QR SERVER 1" height="112" width="300" /></a> </p> <br>
 
 ## ```DEPLOY TO HEROKU```
 <p align = center > <a href="https://heroku.com/deploy?template=https://github.com/MR-KALINDU/ROWDY-BABY-MD" target="blank"><img align="center" src="https://i.imgur.com/6rs61MY.png" alt="Deploy bot" height="112" width="310" /></a> </p>
