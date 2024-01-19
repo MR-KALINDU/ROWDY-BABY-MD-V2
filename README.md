@@ -1,28 +1,37 @@
-<p align="center"> 
-  <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Bungee+Shade&size=25&pause=1000&background=FF000000&width=435&lines=THIS+IS+SONIC+MD+V2 ❤️+;ROWDY-+BABY-+MD 🎉;CREATED+BY+MR-KALINDU ✔️" alt="Typing SVG" /></a>
-</p>
+<h1 align="center"><b>👸 ROWDY-BABY AN USER BOT FOR WHATSAPP 👸</b></h1>
+
+![logo](https://i.ibb.co/P6zqX6B/b5e0d941-c219-47ea-b2fe-124246d2594b.jpg)
 
 
-## ```FIRST FORK REPO```
-<p align = center > <a href="https://github.com/MR-KALINDU/ROWDY-BABY-MD/fork"><img align="center" src="https://i.ibb.co/nbCmXJW/Screenshot-2023-1028-090353.png" alt="SCAN QR SERVER 1" height="212" width="310" /></a> </p> <br>
+### FIRST SCAN QR
 
-## ```SCAN QR CODE```
-<p align = center > <a href="https://mr-kalindu-qr.onrender.com/" target="blank"><img align="center" src="https://i.ibb.co/x87L8Jn/Screenshot-2023-1028-084040.png" alt="Deploy bot" height="212" width="310" /></a> </p>
-
-
-
-## ```DEPLOY TO HEROKU```
-<p align = center > <a href="https://heroku.com/deploy?template=https://github.com/MR-KALINDU/ROWDY-BABY-MD" target="blank"><img align="center" src="https://i.ibb.co/N7wJrB0/Screenshot-2023-1028-090438.png" alt="Deploy bot" height="212" width="310" /></a> </p>
-
-
-## ```DON'T HAVE HEROKU ACCOUNT BUY FOR LKR 100```
-<p align = center > <a href="https://wa.me/+94765614609/"><img align="center" src="https://i.ibb.co/MspbkGm/Screenshot-2023-1028-083938.png" alt="SCAN QR SERVER 1" height="212" width="310" /></a> </p> <br>
+    Scan the QR and get the SESSION ID
+<a href='https://mr-kalindu-qr.onrender.com/' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 
 
+#### NOW CREATE HEROKU ACCOUNT 
 
-## ```ROWDY-BABY DEVELOPER```
-<p align = center > <a href="https://wa.me/+94758179948/"><img align="center" src="https://i.ibb.co/5R6QrN8/Screenshot-2023-1028-084207.png" alt="SCAN QR SERVER 1" height="212" width="310" /></a> </p> <br>
+    If You don't have a account in Heroku. Create a account.
+   
+<a href='https://heroku.com' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku'/></a>
 
+
+
+    
+    
+
+#### HEROKU DEPLOY
+
+    NOW DEPLOY TO HEROKU CLICKING THE BUTTON 
+<a href='https://heroku.com/deploy?template=https://github.com/MR-KALINDU/ROWDY-BABY-MD-V2' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku'/></a>
+
+
+
+  ## **`ROWDY-BABY BOT DEVELOPER`**
+
+
+   <a href="https://github.com/MR-KALINDU/"><img src="https://avatars.githubusercontent.com/u/132440655?s=400&u=ad99f3d61910d16d6979c089587618e56b3cffc9&v=4" width=120 height=120></a>   
+
+|**[`MR-KALINDU`](https://github.com/MR-KALINDU)**|
 
