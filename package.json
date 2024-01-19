@@ -70,7 +70,7 @@
                        "@sl-code-lords/image-library": "^1.0.0",
                        "@jeve/lyrics-finder" : "^1.0.1",
                        "@sl-code-lords/esana-news": "latest",
-                       "@sl-code-lords/wabetainfo": "latest",
+                       "nima-wabeta-info": "latest",
                        "@sl-code-lords/si-subdl": "latest",
                        "@sl-code-lords/openai-chatgpt": "latest",
                        "hirunews-scraper": "latest",
